@@ -1,4 +1,4 @@
-FROM jupyter/datascience-notebook
+FROM coronawhy/jupyter-toolbox:latest
 COPY ./ /home/jovyan/work
 WORKDIR /home/jovyan
 RUN git clone https://github.com/CoronaWhy/common
