@@ -1,7 +1,7 @@
 version: '2'
   
 services:
-  mongonarcis:
+  coronamongo:
     command: mongod --setParameter failIndexKeyTooLong=false
     container_name: mongo
     image: mongo:4.0
