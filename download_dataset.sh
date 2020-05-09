@@ -12,7 +12,7 @@ echo "Unzipping dataset and preparing CoronaWhy infrastructure..."
 unzip CORD-19-research-challenge.zip
 cp ./metadata.csv ./metadata_old.csv
 # Removing last paper to run test
-LAST=$(tail -n 1 ./metadata.log)
+LAST=$(tail -n 1 ./metadata.csv)
 # truncate old metadata file
 let TRUNCATE_SIZE="${#LAST} + 1"
 truncate -s -"$TRUNCATE_SIZE" ./metadata_old.csv
