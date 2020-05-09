@@ -1,0 +1,5 @@
+wget https://s3-us-west-2.amazonaws.com/ai2-s2-scispacy/data/linking_model/tfidf_vectors_sparse.npz -O /exchange/pip_cache/tfidf_vectors_sparse.npz
+wget https://s3-us-west-2.amazonaws.com/ai2-s2-scispacy/data/linking_model/nmslib_index.bin -O /exchange/pip_cache/nmslib_index.bin
+wget https://s3-us-west-2.amazonaws.com/ai2-s2-scispacy/data/linking_model/tfidf_vectorizer.joblib  -O /exchange/pip_cache/tfidf_vectorizer.joblib
+wget https://s3-us-west-2.amazonaws.com/ai2-s2-scispacy/data/linking_model/concept_aliases.json -O /exchange/pip_cache/concept_aliases.json
+wget https://s3-us-west-2.amazonaws.com/ai2-s2-scispacy/data/umls_2017_aa_cat0129.json -O /exchange/pip_cache/umls_2017_aa_cat0129.json
