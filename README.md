@@ -1,5 +1,10 @@
 # covid-19-infrastructure
-Jupyter Notebook Research Infrastructure
+CoronaWhy Jupyter Notebook Research Infrastructure
+Download COVID-19 Open Research Dataset Challenge (CORD-19) from Kaggle https://github.com/4tikhonov/covid-19-infrastructure
+```
+bash ./download_dataset.sh
+```
+Start Jupyter by executing
 ```
 docker-compose up
 ```
