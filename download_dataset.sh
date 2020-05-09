@@ -10,4 +10,10 @@ curl -o $DATADIR/original/CORD-19-research-challenge.zip $DATASET
 cd $DATADIR/original
 echo "Unzipping dataset and preparing CoronaWhy infrastructure..."
 unzip CORD-19-research-challenge.zip
+cp ./metadata.csv ./metadata_old.csv
+# Removing last paper to run test
+LAST=$(tail -n 1 ./metadata.log)
+# truncate old metadata file
+let TRUNCATE_SIZE="${#LAST} + 1"
+truncate -s -"$TRUNCATE_SIZE" ./metadata_old.csv
 cd ../../
