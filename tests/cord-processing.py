@@ -645,8 +645,8 @@ new_df.fillna("[]", inplace=True)
 
 print(new_df.columns)
 for col in new_df.columns:
-    if col in string_cols:
-        new_df[col] = new_df[col].astype("string")
+    #if col in string_cols:
+        #new_df[col] = new_df[col].astype("string")
 #    if col in list_cols:
 #        df[col] = df[col].apply(lambda x: list(x) if not isinstance(x, list) else x)
     if col in int_cols:
