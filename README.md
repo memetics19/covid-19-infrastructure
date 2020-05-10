@@ -1,4 +1,9 @@
 # CoronaWhy Jupyter Notebook Research Infrastructure
+## What is CoronaWhy?
+CoronaWhy.org is a global volunteer organization dedicated to driving actionable insights into significant world issues using industry-leading data science, artificial intelligence and knowledge sharing. 
+CoronaWhy was founded during the 2020 COVID-19 crisis, following a White House call to help extract valuable data from 47,000 coronavirus-related scholarly articles, dating back decades.
+Currently at over 900 volunteers, CoronaWhy is composed of data scientists, doctors, epidemiologists, students, and various subject matter experts on everything from technology and engineering to communications and program management.
+
 ## What has CoronaWhy produced so far?
 
 Read about our [creations](https://github.com/CoronaWhy/covid-19-infrastructure/blob/master/Creations.md) before you start.
