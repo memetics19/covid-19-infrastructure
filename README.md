@@ -72,7 +72,7 @@ BEL Commons 3.0 available as a service [https://bel.labs.coronawhy.org](https:/
 
 An environment for curating, validating, and exploring knowledge assemblies encoded in Biological Expression Language (BEL) to support elucidating disease-specific, mechanistic insight.
 
-You can watch the [introduction video](https://www.youtube.com/watch?v=rHhuVBpoKdI&feature=youtu.be) if you want to want more.
+You can watch the [introduction video](https://www.youtube.com/watch?v=rHhuVBpoKdI&feature=youtu.be) if you want to know more.
 
 ### INDRA
 
@@ -89,10 +89,15 @@ https://github.com/nasa-jpl-memex/GeoParser
 
 ### Tabula
 
-Tabula allows you to extract data from PDF files into a CSV or Microsoft Excel spreadsheet using a simple, easy-to-use interface. We deployed it as a [CoronaWhy service](http://tabula.labs.coronawhy.org) available for all community members.
+Tabula allows you to extract data from PDF files into a CSV or Microsoft Excel spreadsheet using a simple, easy-to-use interface. We deployed it as a [CoronaWhy service](http://tabula.labs.coronawhy.org) available for all community members. More at [Tabula website](https://tabula.technology)
+
+### Teamchatviz
+
+We use [Teamchatviz](https://teamchatviz.labs.coronawhy.org) to explore how communication works in our distributed team and learn how communication shapes culture in CoronaWhy community. https://moovel.github.io/teamchatviz/
 
 # Articles produced by CoronaWhy people
 [I’m an AI researcher and here’s how I fight corona](https://medium.com/@arturkiulian/im-an-ai-researcher-and-here-s-how-i-fight-corona-1e0aa8f3e714) by Artur Kiulian
+
 
 [Exploration of Document Clustering with SPECTER Embeddings](https://medium.com/@beychaner/exploration-of-document-clustering-with-specter-embeddings-7d255f0f7392) by Brandon Eychaner
 
