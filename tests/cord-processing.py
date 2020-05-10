@@ -663,7 +663,7 @@ new_df['lemma'][0]
 
 
 newjsondf = new_df.to_json(orient='records')
-with open("%s_processedPapers.json" % version, 'w') as f:
+with open("%s_sentences.json" % version, 'w') as f:
     f.write(newjsondf)
 
 
