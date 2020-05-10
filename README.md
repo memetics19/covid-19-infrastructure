@@ -16,6 +16,16 @@ cd tests
 python ./cord-processing.py
 ```
 It should produce v12* files in the same folder. File v12_sentences.json contains all extracted entities on sentences level corresponding to CoronaWhy Elasticsearch [collection](http://search.coronawhy.org/v9sentences/_doc/fDLftXEBMjpYvjrLmggF).
+
+# Getting Started with CoronaWhy Common infrastructure
+[How to access Elasticsearch and Dataverse (notebook)](https://colab.research.google.com/drive/1AO-kBf1MTfqWAUenJJ45vjKsHWBv3men)
+[CoronaWhy Elasticsearch Tutorial (notebook)] https://colab.research.google.com/drive/1dvuzvp2aQsiBiSzv-brh2iA5qbsswRVl#scrollTo=bQ0zEGMsWCJI)
+
+# Articles produced by members of CoronaWhy community
+[Exploration of Document Clustering with SPECTER Embeddings](https://medium.com/@beychaner/exploration-of-document-clustering-with-specter-embeddings-7d255f0f7392) by Brandon Eychaner
+[COVID-19 Research Papers Geolocation](https://medium.com/swlh/covid-19-research-papers-geolocation-c2d090bf9e06) by Ishan Sharma
+
+
 # CovonaWhy Services
 You can connect your notebooks to the number of services listed below, all services coming from CoronaWhy Labs have an experimental status. [Join the fight against COVID-19](https://coronawhy.org) if you want to help us! 
 
@@ -57,7 +67,7 @@ An environment for curating, validating, and exploring knowledge assemblies 
 INDRA
 ===============
 
-Indra deployed as a service on [https://labs.coronawhy.org/indra](https://labs.coronawhy.org/indra)
+Indra will deployed as a service on [https://labs.coronawhy.org/indra](https://indra.labs.coronawhy.org) (in development).
 
 INDRA (Integrated Network and Dynamical Reasoning Assembler) generates executable models of pathway dynamics from natural language (using the TRIPS and REACH parsers), and BioPAX and BEL sources (including the Pathway Commons database and NDEx.
 
