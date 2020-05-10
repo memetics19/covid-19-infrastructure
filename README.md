@@ -17,14 +17,16 @@ python ./cord-processing.py
 ```
 It should produce v12* files in the same folder. File v12_sentences.json contains all extracted entities on sentences level corresponding to CoronaWhy Elasticsearch [collection](http://search.coronawhy.org/v9sentences/_doc/fDLftXEBMjpYvjrLmggF).
 
-Follow all updates from [CoronaWhy Github](https://github.com/CoronaWhy/)
+Follow all updates from our [YouTube](https://www.youtube.com/channel/UCEeuBPsfGE3fceAN3yL5Gig) and [CoronaWhy Github](https://github.com/CoronaWhy/)
 
 # Getting Started with CoronaWhy Common infrastructure
 [How to access Elasticsearch and Dataverse, notebook](https://colab.research.google.com/drive/1AO-kBf1MTfqWAUenJJ45vjKsHWBv3men)
 
 [CoronaWhy Elasticsearch Tutorial notebook](https://colab.research.google.com/drive/1dvuzvp2aQsiBiSzv-brh2iA5qbsswRVl#scrollTo=bQ0zEGMsWCJI)
 
-# Articles produced by members of CoronaWhy community
+# Articles produced by CoronaWhy people
+[I’m an AI researcher and here’s how I fight corona](https://medium.com/@arturkiulian/im-an-ai-researcher-and-here-s-how-i-fight-corona-1e0aa8f3e714) by Artur Kiulian
+
 [Exploration of Document Clustering with SPECTER Embeddings](https://medium.com/@beychaner/exploration-of-document-clustering-with-specter-embeddings-7d255f0f7392) by Brandon Eychaner
 
 [COVID-19 Research Papers Geolocation](https://medium.com/swlh/covid-19-research-papers-geolocation-c2d090bf9e06) by Ishan Sharma
