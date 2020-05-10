@@ -15,4 +15,4 @@ pip install googletrans
 cd tests
 python ./cord-processing.py
 ```
-It should produce v12* files in the same folder
+It should produce v12* files in the same folder. File v12_sentences.json contains all extracted entities on sentenses level.
