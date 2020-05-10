@@ -10,13 +10,17 @@ Read about our [creations](https://github.com/CoronaWhy/covid-19-infrastructure/
 
 ## CoronaWhy dashboards
 
-[Task-Risk](https://app.powerbi.com/view?r=eyJrIjoiY2E5YjFkZjItN2Q2ZS00MGI5LWFiMWQtZmY0OWRiZTlkNDVmIiwidCI6ImRjMWYwNGY1LWMxZTUtNDQyOS1hODEyLTU3OTNiZTQ1YmY5ZCIsImMiOjEwfQ%3D%3D)
+[Task-Risk](https://app.powerbi.com/view?r=eyJrIjoiY2E5YjFkZjItN2Q2ZS00MGI5LWFiMWQtZmY0OWRiZTlkNDVmIiwidCI6ImRjMWYwNGY1LWMxZTUtNDQyOS1hODEyLTU3OTNiZTQ1YmY5ZCIsImMiOjEwfQ%3D%3D) helps to identify risk factors that can increase the chance of being infected, or affects the severity or the survival outcome of the infection
 
-[Task-Ties](https://app.powerbi.com/view?r=eyJrIjoiOWYwM2Y0OTgtZGE0YS00YjM3LTkwZmYtZTM1NWE5NjJmY2JjIiwidCI6ImRjMWYwNGY1LWMxZTUtNDQyOS1hODEyLTU3OTNiZTQ1YmY5ZCIsImMiOjEwfQ%3D%3D)
+[Task-Ties](https://app.powerbi.com/view?r=eyJrIjoiOWYwM2Y0OTgtZGE0YS00YjM3LTkwZmYtZTM1NWE5NjJmY2JjIiwidCI6ImRjMWYwNGY1LWMxZTUtNDQyOS1hODEyLTU3OTNiZTQ1YmY5ZCIsImMiOjEwfQ%3D%3D) to explore transmission, incubation and environment stability
 
-[Named Entity Recognition](https://app.powerbi.com/view?r=eyJrIjoiMGExNTY3ZjEtMTA3MC00NDYyLTg3YjAtMzZjYTZlMmQ3Mzk3IiwidCI6ImRjMWYwNGY1LWMxZTUtNDQyOS1hODEyLTU3OTNiZTQ1YmY5ZCIsImMiOjEwfQ%3D%3D)
+[Named Entity Recognition](https://app.powerbi.com/view?r=eyJrIjoiMGExNTY3ZjEtMTA3MC00NDYyLTg3YjAtMzZjYTZlMmQ3Mzk3IiwidCI6ImRjMWYwNGY1LWMxZTUtNDQyOS1hODEyLTU3OTNiZTQ1YmY5ZCIsImMiOjEwfQ%3D%3D) across the entire corpus of CORD-19 papers with full text
 
-[AI Powered Literature Review](https://app.powerbi.com/view?r=eyJrIjoiODg5ODk5ZGEtYTViMy00ODAzLThiNzMtNWY2MjM5ZWUyNzU3IiwidCI6ImRjMWYwNGY1LWMxZTUtNDQyOS1hODEyLTU3OTNiZTQ1YmY5ZCIsImMiOjEwfQ%3D%3D)
+[Match Clinical Trials](https://app.powerbi.com/view?r=eyJrIjoiOGEwYzUwMzctYzJhNS00MjcwLTgzYTktYjQ2ODZmOGM2ZjRkIiwidCI6ImRjMWYwNGY1LWMxZTUtNDQyOS1hODEyLTU3OTNiZTQ1YmY5ZCIsImMiOjEwfQ%3D%3D) allows exploration of the results from the [COVID-19 International Clinical Trials](https://www.kaggle.com/panahi/covid-19-international-clinical-trials) dataset
+
+[COVID-19 Literature Visualization](https://app.powerbi.com/view?r=eyJrIjoiODg5ODk5ZGEtYTViMy00ODAzLThiNzMtNWY2MjM5ZWUyNzU3IiwidCI6ImRjMWYwNGY1LWMxZTUtNDQyOS1hODEyLTU3OTNiZTQ1YmY5ZCIsImMiOjEwfQ%3D%3D) helps to explore the data behind the AI-powered literature review
+
+More detailed information about every dashboard published on [Kaggle](https://www.kaggle.com/mikehoney/hyperion/notebook)
 
 ## CORD-19 preprocessing pipeline 
 Download COVID-19 Open Research Dataset Challenge (CORD-19) from [Kaggle](https://www.kaggle.com/allen-institute-for-ai/CORD-19-research-challenge)
@@ -81,7 +85,7 @@ BEL Commons 3.0 available as a service [https://bel.labs.coronawhy.org](https:/
 
 An environment for curating, validating, and exploring knowledge assemblies encoded in Biological Expression Language (BEL) to support elucidating disease-specific, mechanistic insight.
 
-You can watch the [introduction video](https://www.youtube.com/watch?v=rHhuVBpoKdI&feature=youtu.be) if you want to know more.
+You can watch the [introduction video](https://www.youtube.com/watch?v=rHhuVBpoKdI&feature=youtu.be) and read [Corona BEL Tutorial](https://docs.google.com/document/d/180gdZMs6AmNi200CTCsMoxGFNPoiE8xxqzG6SCvIQ18/edit#heading=h.kovvpz3y508q) if you want to know more.
 
 ### INDRA
 
