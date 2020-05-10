@@ -1,4 +1,9 @@
 # CoronaWhy Jupyter Notebook Research Infrastructure
+## What has CoronaWhy produced so far?
+
+Read about our [creations](https://github.com/CoronaWhy/covid-19-infrastructure/blob/master/Creations.md) before you start.
+
+## CORD-19 preprocessing pipeline 
 Download COVID-19 Open Research Dataset Challenge (CORD-19) from [Kaggle](https://www.kaggle.com/allen-institute-for-ai/CORD-19-research-challenge)
 ```
 bash ./download_dataset.sh
