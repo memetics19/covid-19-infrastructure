@@ -87,6 +87,10 @@ Geoparser as a service [https://geoparser.labs.coronawhy.org](https://geoparser.
 The Geoparser is a software tool that can process information from any type of file, extract geographic coordinates, and visualize locations on a map. Users who are interested in seeing a geographical representation of information or data can choose to search for locations using the Geoparser, through a search index or by uploading files from their computer.
 https://github.com/nasa-jpl-memex/GeoParser
 
+### Tabula
+
+Tabula allows you to extract data from PDF files into a CSV or Microsoft Excel spreadsheet using a simple, easy-to-use interface. We deployed it as a [CoronaWhy service](http://tabula.labs.coronawhy.org) available for all community members.
+
 # Articles produced by CoronaWhy people
 [I’m an AI researcher and here’s how I fight corona](https://medium.com/@arturkiulian/im-an-ai-researcher-and-here-s-how-i-fight-corona-1e0aa8f3e714) by Artur Kiulian
 
