@@ -4,15 +4,12 @@ services:
   jupyter:
     build: ./notebooks
     ports:
-      - "8889:8888"
+      - "8888:8888"
     environment:
       - "CLOUDSDK_CONFIG=/tmp/.config"
       - "DATALAB_ROOT==/tmp/.config"
-      - GRANT_SUDO="yes"
       - "PIP_CACHE_DIR=/exchange/pip_cache"
       - "XDG_CACHE_HOME=/exchange/pip_cache"
-    user:
-      "root"
     volumes:
       - ./data/notebooks:/home/jovyan/work
       - ./data/original:/exchange
