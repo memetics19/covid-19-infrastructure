@@ -1,5 +1,5 @@
 # CoronaWhy Jupyter Notebook Research Infrastructure
-Download COVID-19 Open Research Dataset Challenge (CORD-19) from [Kaggle|https://www.kaggle.com/allen-institute-for-ai/CORD-19-research-challenge]
+Download COVID-19 Open Research Dataset Challenge (CORD-19) from [Kaggle](https://www.kaggle.com/allen-institute-for-ai/CORD-19-research-challenge)
 ```
 bash ./download_dataset.sh
 ```
@@ -15,4 +15,4 @@ pip install googletrans
 cd tests
 python ./cord-processing.py
 ```
-It should produce v12* files in the same folder. File v12_sentences.json contains all extracted entities on sentences level corresponding to CoronaWhy Elasticsearch [collection|http://search.coronawhy.org/v9sentences/_doc/fDLftXEBMjpYvjrLmggF].
+It should produce v12* files in the same folder. File v12_sentences.json contains all extracted entities on sentences level corresponding to CoronaWhy Elasticsearch [collection](http://search.coronawhy.org/v9sentences/_doc/fDLftXEBMjpYvjrLmggF).
