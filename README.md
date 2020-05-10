@@ -44,6 +44,10 @@ Follow all updates from our [YouTube](https://www.youtube.com/channel/UCEeuBPsfG
 
 [CoronaWhy Elasticsearch Tutorial notebook](https://colab.research.google.com/drive/1dvuzvp2aQsiBiSzv-brh2iA5qbsswRVl#scrollTo=bQ0zEGMsWCJI)
 
+[Create Knowledge Graph, notebook](https://colab.research.google.com/drive/1pYVWxG5hXZfkolWe9Q_CZg2hRIfg2Q9u)
+
+[Dataverse Colab Connect](https://colab.research.google.com/drive/12PmYi8mWILsk4Rci5OqUtavVqk_jQiZH)
+
 # CoronaWhy Services
 You can connect your notebooks to the number of services listed below, all services coming from CoronaWhy Labs have an experimental status. [Join the fight against COVID-19](https://coronawhy.org) if you want to help us! 
 
