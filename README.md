@@ -81,6 +81,10 @@ MongoDB service deployed on [mongodb.coronawhy.org](mongodb.coronawhy.org) and a
 
 Our Hypothesis annotation service is running on [hypothesis.labs.coronawhy.org](https://hypothesis.labs.coronawhy.org) and allows to manually annotate CORD-19 papers. Please try our [Hypothesis Demo](http://labs.coronawhy.org/hypothesis.html) if you're interested.
 
+### OpenLink Virtuoso triplestore
+
+We are providing [https://sparql.labs.coronawhy.org](Virtuoso as a service) with public [SPARQL Endpoint](https://sparql.labs.coronawhy.org/sparql) that offers an HTTP-based Query Service that operates on Entity Relationship Types (Relations) represented as RDF sentence collections using the SPARQL Query Language. https://virtuoso.openlinksw.com
+
 ## Kibana
 
 Kibana deployed as a community service connected to CoronaWhy Elasticsearch on [https://kibana.labs.coronawhy.org](https://kibana.labs.coronawhy.org)
@@ -118,7 +122,7 @@ We use [Teamchatviz](https://teamchatviz.labs.coronawhy.org) to explore how comm
 
 ### In progress
 
-We are working on the deployment of OpenLink Virtuoso CE triplestore and Neo4j graph database.
+We are working on the deployment Neo4j graph database.
 
 # Articles produced by CoronaWhy people
 [I’m an AI researcher and here’s how I fight corona](https://medium.com/@arturkiulian/im-an-ai-researcher-and-here-s-how-i-fight-corona-1e0aa8f3e714) by Artur Kiulian
