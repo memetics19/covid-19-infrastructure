@@ -81,9 +81,11 @@ MongoDB service deployed on [mongodb.coronawhy.org](mongodb.coronawhy.org) and a
 
 Our Hypothesis annotation service is running on [hypothesis.labs.coronawhy.org](https://hypothesis.labs.coronawhy.org) and allows to manually annotate CORD-19 papers. Please try our [Hypothesis Demo](http://labs.coronawhy.org/hypothesis.html) if you're interested.
 
-### OpenLink Virtuoso triplestore
+## OpenLink Virtuoso triplestore
 
 We are providing [Virtuoso as a service](https://sparql.labs.coronawhy.org) with public [SPARQL Endpoint](https://sparql.labs.coronawhy.org/sparql) that offers an HTTP-based Query Service that operates on Entity Relationship Types (Relations) represented as RDF sentence collections using the SPARQL Query Language. https://virtuoso.openlinksw.com
+
+You can run a simple [SPARQL query](https://sparql.labs.coronawhy.org/sparql?default-graph-uri=&query=select+*+from+%3Chttps%3A%2F%2Fwww.coronawhy.org%3E+where+%7B%3Fs+%3Fp+%3Fo%7D&should-sponge=&format=text%2Fhtml&timeout=0&debug=on) to get some overview of triples from CoronaWhy Knowledge Graph.
 
 ## Kibana
 
