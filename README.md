@@ -83,7 +83,7 @@ Our Hypothesis annotation service is running on [hypothesis.labs.coronawhy.org](
 
 ### OpenLink Virtuoso triplestore
 
-We are providing [https://sparql.labs.coronawhy.org](Virtuoso as a service) with public [SPARQL Endpoint](https://sparql.labs.coronawhy.org/sparql) that offers an HTTP-based Query Service that operates on Entity Relationship Types (Relations) represented as RDF sentence collections using the SPARQL Query Language. https://virtuoso.openlinksw.com
+We are providing [Virtuoso as a service](https://sparql.labs.coronawhy.org) with public [SPARQL Endpoint](https://sparql.labs.coronawhy.org/sparql) that offers an HTTP-based Query Service that operates on Entity Relationship Types (Relations) represented as RDF sentence collections using the SPARQL Query Language. https://virtuoso.openlinksw.com
 
 ## Kibana
 
