@@ -6,8 +6,9 @@ DATADIR="./data"
 echo "Downloading CORD-19 dataset from $DATASET..."
 mkdir $DATADIR
 mkdir $DATADIR/original
-curl -o $DATADIR/original/CORD-19-research-challenge.zip $DATASET
-cd $DATADIR/original
+mkdir $DATADIR/original/CORD-19-research-challenge
+curl -o $DATADIR/original/CORD-19-research-challenge/CORD-19-research-challenge.zip $DATASET
+cd $DATADIR/original/CORD-19-research-challenge
 echo "Unzipping dataset and preparing CoronaWhy infrastructure..."
 unzip CORD-19-research-challenge.zip
 cp ./metadata.csv ./metadata_old.csv
@@ -16,4 +17,6 @@ LAST=$(tail -n 1 ./metadata.csv)
 # truncate old metadata file
 let TRUNCATE_SIZE="${#LAST} + 1"
 truncate -s -"$TRUNCATE_SIZE" ./metadata_old.csv
+# Move original zip one level higher
+mv $DATADIR/original/CORD-19-research-challenge/CORD-19-research-challenge.zip ../
 cd ../../
