@@ -103,9 +103,14 @@ You can watch the [introduction video](https://www.youtube.com/watch?v=rHhuVBpoK
 
 ### INDRA
 
-Indra will deployed as a service on [https://labs.coronawhy.org/indra](https://indra.labs.coronawhy.org) (in development).
+INDRA deployed as a service on [https://indra.labs.coronawhy.org/indra](https://indra.labs.coronawhy.org).
 
 INDRA (Integrated Network and Dynamical Reasoning Assembler) generates executable models of pathway dynamics from natural language (using the TRIPS and REACH parsers), and BioPAX and BEL sources (including the Pathway Commons database and NDEx.
+
+You can quickly test the service by running:
+```
+curl -X POST "https://indra.labs.coronawhy.org/bel/process_pybel_neighborhood" -H "accept: application/json" -H "content-type: application/json" -d "{ \"genes\": [ \"MAP2K1\" ]}" -l -o test_coronawhy_map2k1.json
+```
 
 ### Geoparser
 
