@@ -1,0 +1,11 @@
+proxy:
+  secretToken: "124343435346000>"
+singleuser:
+  # Defines the default image
+  image:
+    #name: jupyter/minimal-notebook
+    name: docker.io/coronawhy/minimal-notebook
+    tag: 2343e33dec46
+  profileList:
+    - display_name: "Default CoronaWhy environment"
+      description: "To avoid too much bells and whistles: Python, AllenAI, CoronaWhy."
