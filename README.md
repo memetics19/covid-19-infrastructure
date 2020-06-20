@@ -127,6 +127,11 @@ Tabula allows you to extract data from PDF files into a CSV or Microsoft Excel s
 
 We use [Teamchatviz](https://teamchatviz.labs.coronawhy.org) to explore how communication works in our distributed team and learn how communication shapes culture in CoronaWhy community. https://moovel.github.io/teamchatviz/
 
+### Doccano 
+Our Doccano annotation service is running on [doccano.coronawhy.org](https://doccano.coronawhy.org) and allows to manually annotate CORD-19 papers. 
+
+
+
 ### In progress
 
 We are working on the deployment Neo4j graph database.
